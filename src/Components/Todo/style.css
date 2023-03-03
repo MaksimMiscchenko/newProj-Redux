@@ -1,0 +1,22 @@
+.todo-note {
+  color: white;
+  font-size: 25px;
+  margin: 30px 0;
+  background: linear-gradient(45deg, rgb(10, 170, 216) 38%, rgb(17, 70, 142));
+  border-radius: 20px;
+  list-style: none;
+  height: 60px;
+  text-align: start;
+  padding: 10px 10px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo {
+  width: 800px;
+  display: inline-block;
+  margin: 100px 200px;
+}
